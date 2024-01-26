@@ -18,3 +18,4 @@ while given_number > 0:
 
     given_number //= 10
 
+print("The reversed number is: ", " ".join(reversed_given_number))
