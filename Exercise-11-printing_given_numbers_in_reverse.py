@@ -9,3 +9,12 @@ if given_number.isdigit():
 else:
     print("Invalid, input must be numbers.")
 
+reversed_given_number = " "
+
+while given_number > 0:
+    digit = given_number % 10
+
+    reversed_given_number += str(digit)
+
+    given_number //= 10
+
